@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="cuadro">
+        <div>
+            <input id="n1" type="number" placeholder="N1">
+            <select id="operador">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="x">x</option>
+                <option value="/">/</option>
+            </select>
+            <input id="n2" type="number" placeholder="N2">
+        </div>
+        <div>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+        <div>
+            <button onclick="resultado2()">Resultado</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
